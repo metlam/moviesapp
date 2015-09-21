@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="pref_sort_movie">movie_sort_by</string>
+    <string name="pref_sort_movie_title">Sort Movies by</string>
+    <string name="pref_sort_movie_default">popularity.desc</string>
+
+    <string name="pref_header_title">Settings</string>
+    <string name="pref_header_summary">Here are the settings</string>
+
+    <string-array name="pref_sort_movie_list_values">
+        <item name="popularity">popularity.desc</item>
+        <item name="rating">vote_average.desc</item>
+        <item name="favorite">favorite</item>
+    </string-array>
+
+    <string-array name="pref_sort_movie_list_titles">
+        <item name="popularity">popularity</item>
+        <item name="rating">rating</item>
+        <item name="favorite">my favorites</item>
+    </string-array>
+</resources>
